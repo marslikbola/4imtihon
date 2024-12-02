@@ -1,0 +1,304 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+
+header{
+    width: 1440px;
+height: 517px;
+background-color: #014E56;
+padding: 73px 165px;
+}
+
+.header{
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.header ul{
+    color: white;
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    font-family: Livvic;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+}
+
+h1{
+    font-family: Livvic;
+font-size: 64px;
+font-weight: 700;
+line-height: 100px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+}
+
+.box{
+    padding: 90px 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+}
+p{
+    font-family: Livvic;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #FFFFFF;
+}
+
+main{
+    width: 1440px;
+height: 1002px;
+background-color: #004047;
+}
+
+h2{
+    font-family: Livvic;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 48px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+color: white;    
+}
+
+.box1{
+    width: 350px;
+    height: 274.73px;
+    gap: 0px;
+    opacity: 0px;
+background-color: #012F34;     
+padding: 32px 24px;
+  
+}
+
+.img{
+    width: 96px;
+height: 96px;
+top: 12px;
+left: 103px;
+gap: 0px;
+border: 2px 0px 0px 0px;
+display: flex;
+justify-content: center;
+}
+
+.p{
+    font-family: Livvic;
+font-size: 18px;
+font-weight: 700;
+line-height: 28px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #79C8C7;
+
+}
+
+.h{
+    font-family: Livvic;
+font-size: 15px;
+line-height: 25px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: white;
+}
+
+.btn{
+    width: 56px;
+height: 56px;
+top: 237px;
+left: 147px;
+gap: 0px;
+opacity: 0px;
+background-color: #F67E7E;
+border-radius: 50px;
+border: none;
+color: #012F34;
+}
+
+
+.bts{
+    display: flex;
+    justify-content: center;
+}
+
+
+.box2{
+    width: 350px;
+    height: 274.73px;
+    gap: 0px;
+    opacity: 0px;
+background-color: #012F34;     
+padding: 32px 24px;
+}
+
+
+.box3{
+    width: 350px;
+    height: 274.73px;
+    gap: 0px;
+    opacity: 0px;
+background-color: #012F34;     
+padding: 32px 24px;
+}
+
+
+
+.section-one{
+    display: flex;
+    justify-content: space-evenly;
+   
+    padding: 140px;
+}
+
+.h2{
+    padding: 71px 95px;
+}
+
+.section-two{
+    width: 1440px;
+height: 355.66px;
+top: 1163px;
+background-color: #012F34;
+padding:113px 260px;
+}
+
+.h22{
+    font-family: Livvic;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none; 
+color: white;
+}
+
+.imgs{
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+    padding: 50px;
+}
+
+.section-three{
+    width: 1440px;
+height: 200px;
+top: 1519px;
+gap: 0px;
+opacity: 0px;
+background-color: #F67E7E;
+}
+
+.h4{
+    font-family: Livvic;
+font-size: 48px;
+font-weight: 700;
+line-height: 48px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #012F34;
+}
+
+.hero{
+    display: flex;
+    padding: 76px 263px;
+}
+
+.btn1{
+    font-family: Livvic;
+font-size: 18px;
+font-weight: 600;
+line-height: 28px;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: #012F34;
+border-radius: 10px;
+border: black;
+width: 153px;
+height: 48px;
+left: 764px;
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #F67E7E;    
+border: 2px solid #012F34
+}
+
+.hero1{
+display: flex;
+padding: 10px 160px;
+}
+
+
+footer{
+    width: 1440px;
+height: 196px;
+background: #002529;
+}
+@media(max-width:768px){
+    .box{
+        flex-wrap: wrap;
+        h1{
+            font-family: Livvic;
+font-size: 64px;
+font-weight: 700;
+line-height: 56px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+        }
+        .p{
+            font-family: Livvic;
+font-size: 15px;
+font-weight: 600;
+line-height: 28px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+        }
+    }
+    }
+
+    @media(max-width:375px){
+        .box1{
+            font-family: Livvic;
+            font-size: 15px;
+            font-weight: 600;
+            line-height: 28px;
+            text-align: center;
+            text-underline-position: from-font;
+            text-decoration-skip-ink: none;
+            
+        }
+
+    }
